@@ -19,3 +19,5 @@ with open('index.html', 'r') as f:
         course_price = course.a.text.split()[-1]
 
         print(course_name + " costs " + course_price)
+
+        # test
